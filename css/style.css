@@ -1,0 +1,188 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+.bg-light-green {
+  background-color: #f2f4e6;
+  color: #2c542f;
+}
+
+.bg-green {
+  background-color: #2c542f;
+  color: white;
+}
+
+.custom-btn {
+  background: #005b2e;
+  color: white;
+  border-radius: 0;
+  padding: 10px 26px;
+}
+.custom-btn:hover {
+  color: white;
+  background: #004624;
+}
+
+.h-lg {
+  font-size: 3.8rem;
+}
+
+.timeline {
+  border-left: 1px solid hsl(0, 0%, 90%);
+  position: relative;
+  list-style: none;
+}
+
+.timeline .timeline-item {
+  position: relative;
+}
+
+.timeline .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .timeline-item:after {
+  background-color: hsl(0, 0%, 90%);
+  left: -38px;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: "";
+} 
+.bg-green .timeline-date {
+  --bs-text-opacity: 1;
+  color: rgb(255 255 255 / 75%);
+}
+.bg-green .timeline-text {
+  color: rgb(255 255 255);
+}
+.bg-light-green .timeline-date {
+  --bs-text-opacity: 1;
+  color: rgb(0 91 46 / 75%);
+}
+.bg-light-green .timeline-text {
+  color: rgb(0 91 46);
+}
+.employeement .timeline .timeline-item:after {
+  background-color: hsl(150deg 100% 18%);
+} 
+.employeement .timeline {
+  border-left: 1px solid hsl(150deg 100% 18%);
+} 
+.progress-container {
+  margin-top: 16px;
+}
+.progress-container h6 {
+  text-align: left;
+}
+.progress-container .progress {
+  height: 18px;
+  border: 1px solid;
+}
+.progress-container .progress .progress-bar {
+  background-color: #2c542f;
+}
+
+.next-btn {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+.btn-left {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+
+}
+.icons-container img {
+  width: 40px;
+}
+
+.my-animate__delay-1{
+  animation-delay: .5s;
+}
+.my-animate__delay-2{
+  animation-delay: 1s;
+}
+.my-animate__delay-3{
+  animation-delay: 1.5s;
+}
+.my-animate__delay-4{
+  animation-delay: 2s;
+}
+.my-animate__delay-5{
+  animation-delay: 2.5s;
+}
+.my-animate__delay-6{
+  animation-delay: 3s;
+}
+.my-animate__delay-7{
+  animation-delay: 3.5s;
+}
+.my-animate__delay-8{
+  animation-delay: 4s;
+}
+.my-animate__delay-9{
+  animation-delay: 4.5s;
+}
+
+.animat-width {
+  width: 0px;
+  transition-duration: 3s;
+}
+
+
+.my-transition_delay-1{
+  transition-delay: .3s;
+}
+.my-transition_delay-2{
+  transition-delay: .7s;
+}
+.my-transition_delay-3{
+  transition-delay: 1.3s;
+}
+.my-transition_delay-4{
+  transition-delay: 1.7s;
+}
+.my-transition_delay-5{
+  transition-delay: 2.3s;
+}
+.my-transition_delay-6{
+  transition-delay: 2.7s;
+}
+.my-transition_delay-7{
+  transition-delay: 3.3s;
+}
+.my-transition_delay-8{
+  transition-delay: 3.7s;
+}
+.my-transition_delay-9{
+  transition-delay: 4.3s;
+}
+
+.my-transition_delay-10{
+  transition-delay: 4.7s;
+}
+
+.my-min-vh-100 {
+  min-height: 100vh;
+}
+
+@media (max-width: 768px) {  
+.my-min-vh-100 {
+  min-height: auto;
+}
+
+}
